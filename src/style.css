@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Drumnik;
+    src: url(Drumnik-Clean.otf);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.1rem;
+
+    background-image: url('home-image.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+    justify-self: center;
+    align-self: center;
+
+    height: 100%;
+    text-align: center;
+    width: 75ch;
+}
+
+#content h1 {
+    font-family: Drumnik;
+    font-size: 10rem;
+    letter-spacing: 4rem;
+    margin: 0;
+    margin: 2rem 0 0 0;
+}
+
+#content p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2rem;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem 0 1rem 0;
+}
