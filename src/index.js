@@ -1,4 +1,5 @@
 import html from "./index.html";
 import './style.css';
+import { initPageLoad } from './home.js';
 
-console.log('It works, yet again!');
+initPageLoad();
