@@ -16,14 +16,18 @@ body {
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 0.1rem;
 
-    background-image: url('home-image.jpg');
+    height: 100%;
     width: 100%;
+    background-image: url('home-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
 
+.wrapper {
     display: flex;
     flex-direction: column;
+    min-height: 100%;
 }
 
 /* header styles */
@@ -91,6 +95,7 @@ li > span {
 /* footer styles */
 
 footer {
+    flex-shrink: 0;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 1rem 0 1rem 0;
     margin-top: 4rem;
