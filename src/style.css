@@ -3,27 +3,40 @@
     src: url(Drumnik-Clean.otf);
 }
 
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
+
 html,
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
     letter-spacing: 0.1rem;
 
     background-image: url('home-image.jpg');
     width: 100%;
-    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 
     display: flex;
     flex-direction: column;
 }
 
+/* header styles */
+
 header {
     background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
     padding: 2rem 0 2rem 0;
+}
+
+.head-logo {
+    font-family: Drumnik;
+    font-size: 5rem;
 }
 
 #content {
@@ -42,19 +55,60 @@ header {
 #content h1 {
     font-family: Drumnik;
     font-size: 10rem;
-    letter-spacing: 4rem;
+    letter-spacing: 1rem;
     margin: 0;
     margin: 2rem 0 0 0;
 }
 
 #content p {
-    font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 2rem;
 }
 
+/* menu styles */
+
+h2 {
+    font-family: PlayfairDisplay;
+    font-size: 3rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem 0 1rem 0;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+ul > li {
+    margin: 1rem 0 1rem 0;
+}
+
+li > span {
+    font-size: 0.8rem;
+}
+
+/* footer styles */
+
 footer {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 1rem 0 1rem 0;
+    margin-top: 4rem;
+
+    display: flex;
+    justify-content: center;
 }
+
+footer > div {
+    padding: 0 1rem 0 1rem;
+}
+
+.foo-logo {
+    font-family: Drumnik;
+    font-size: 5rem;
+}
+
+.foo-contact {
+    align-self: center;
+}
+
