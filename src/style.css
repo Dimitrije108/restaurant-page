@@ -35,13 +35,44 @@ body {
 header {
     background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
-    padding: 2rem 0 2rem 0;
+    padding: .5rem 0 .5rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    align-items: center;
 }
 
 .head-logo {
     font-family: Drumnik;
     font-size: 5rem;
+    margin: 0 1rem 0 1rem;
 }
+
+nav > button {
+    padding: 0;
+    margin: 0 2rem 0 2rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    font-family: PlayfairDisplay;
+    font-size: 1.4rem;
+}
+
+nav > button:hover {
+    text-decoration: underline;
+}
+
+nav > button:active {
+    text-decoration: underline;
+    color: white;
+}
+
+/* content styles */
 
 #content {
     display: flex;
@@ -102,6 +133,7 @@ footer {
 
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 footer > div {
