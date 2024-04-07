@@ -93,7 +93,7 @@ nav > button:active {
 
 #content h1 {
     font-family: Drumnik;
-    font-size: 10rem;
+    font-size: 8rem;
     letter-spacing: 1rem;
     margin: 0;
     margin: 2rem 0 0 0;
@@ -103,6 +103,16 @@ nav > button:active {
     font-size: 1.2rem;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 2rem;
+}
+
+.author {
+    margin: 3rem 0 0 1rem;
+}
+
+.author > p {
+    display: inline-block;
+    padding: .5rem;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* menu styles */
@@ -133,7 +143,6 @@ footer {
     flex-shrink: 0;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 1rem 0 1rem 0;
-    margin-top: 4rem;
 
     display: flex;
     justify-content: center;
@@ -147,9 +156,5 @@ footer > div {
 .foo-logo {
     font-family: Drumnik;
     font-size: 5rem;
-}
-
-.foo-contact {
-    align-self: center;
 }
 
