@@ -1,7 +1,7 @@
 export const menuPage = () => {
     const content = document.querySelector('#content');
     const menu = document.createElement('div');
-    menu.classList.add('menu');
+    menu.classList.add('page');
     const mezeHead = document.createElement('h2');
     const mezeList = document.createElement('ul');
     const soupHead = document.createElement('h2');

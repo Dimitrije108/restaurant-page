@@ -1,7 +1,7 @@
 export const initPageLoad = () => {
     const content = document.querySelector('#content');
     const homepage = document.createElement('div');
-    homepage.classList.add('homepage');
+    homepage.classList.add('page');
     const h1 = document.createElement('h1');
     const para1 = document.createElement('p');
     const para2 = document.createElement('p');

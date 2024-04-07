@@ -1,7 +1,7 @@
 export const aboutPage = () => {
     const content = document.querySelector('#content');
     const about = document.createElement('div');
-    about.classList.add('about');
+    about.classList.add('page');
 
     const h2 = document.createElement('h2');
     const para1 = document.createElement('p');
